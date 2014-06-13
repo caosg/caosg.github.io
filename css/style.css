@@ -2618,7 +2618,8 @@ blockquote p,
 {
    margin:0 auto;
    font-size: 16px;
-   line-height:30px
+   line-height:30px;
+   letter-spacing:8px;
 }
 
 /* Begin Additional CSS Styles */
