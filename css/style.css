@@ -3,8 +3,7 @@
 #art-main
 {
    background: #DADDE2 url('../images/page.png') scroll;
-   margin:0 auto;
-   font-size: 13px;
+   margin:0 auto
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -2618,6 +2617,7 @@ blockquote p,
 .art-content-layout .art-content
 {
    margin:0 auto;
+   font-size: 18px;
 }
 
 /* Begin Additional CSS Styles */
