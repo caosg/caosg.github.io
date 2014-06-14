@@ -10,10 +10,10 @@
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-sidebar1">
                             <div class="art-block clearfix">
-                                <div class="art-blockheader">
+                                <div class="art-blockheader" >
                                     <h3 class="t">产品服务</h3>
                                 </div>
-                                <div class="art-blockcontent" style="letter-spacing:2px;line-height:20px;font-size: 14px">
+                                <div class="art-blockcontent" style="font-size: 14px;line-height:20px;letter-spacing:2px;" >
                                     <p>网站开发建设
                                         <a href="#">
                                             <img width="8" height="6"    alt=""   src="/images/5.png">
@@ -70,12 +70,16 @@
                                 </div>
                             </div>
                             <div class="art-block clearfix">
+                                <div class="art-blockheader">
+                                    <h3 class="t" style="border-bottom: 1px solid #374865">公司新闻</h3>
+                                </div>
                                 {% include newsider.html %}
                             </div>
                         </div>
                         <div class="art-layout-cell art-content">
                             <article class="art-post art-article">
-                              {{ content }}
+
+                               {{ content }}
                             </article>
                         </div>
                     </div>

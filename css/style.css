@@ -3,7 +3,8 @@
 #art-main
 {
    background: #DADDE2 url('../images/page.png') scroll;
-   margin:0 auto
+   margin:0 auto;
+   font-size: 13px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1038,7 +1039,7 @@ div.art-block img
 
 .art-blockheader
 {
-   padding:15px 10px;
+   padding:10px 10px;
    margin:0 auto;
 }
 .art-blockheader .t,
@@ -2617,15 +2618,22 @@ blockquote p,
 .art-content-layout .art-content
 {
    margin:0 auto;
-   font-size: 13px;
-   line-height:20px;
-   letter-spacing:2px;
 }
 
 /* Begin Additional CSS Styles */
-.art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
+.art-blockheader .t,
+
+.art-vmenublockheader .t {white-space: nowrap;}
 .art-article-suojin
 {
     text-indent:2em
+}
+.new-content
+{
+    margin:0 auto;
+    font-family: '微软雅黑';
+    font-size: 13px;
+    line-height:20px;
+    letter-spacing:2px;
 }
 /* End Additional CSS Styles */
